@@ -59,29 +59,45 @@
 
 
 
-const redline = require('readline');
+// const redline = require('readline');
 
-const rl = redline.createInterface({
-   input: process.stdin,
-   output: process.stdout
- });
+// const rl = redline.createInterface({
+//    input: process.stdin,
+//    output: process.stdout
+//  });
 
 
-rl.question('Enter the amount of money you have: ', (startingMoney)=> {
-   rl.question('Enter the cost of 1 kg of oranges:', (orangesPrice) =>{
-      rl.question('Enter the cost of 1 kg of apples:', (applesPrice) =>{
+// rl.question('Enter the amount of money you have: ', (startingMoney)=> {
+//    rl.question('Enter the cost of 1 kg of oranges:', (orangesPrice) =>{
+//       rl.question('Enter the cost of 1 kg of apples:', (applesPrice) =>{
 
-         const money = parseFloat(startingMoney);
-         const orangeCost = parseFloat(orangesPrice);
-         const appleCost = parseFloat(applesPrice);
+//          const money = parseFloat(startingMoney);
+//          const orangeCost = parseFloat(orangesPrice);
+//          const appleCost = parseFloat(applesPrice);
          
-         const totalCost = orangeCost + appleCost;
+//          const totalCost = orangeCost + appleCost;
 
-         const returnMoney = money - totalCost;
+//          const returnMoney = money - totalCost;
 
-         console.log(`The shopkeeper will return: ${returnMoney}`);
+//          console.log(`The shopkeeper will return: ${returnMoney}`);
 
-         rl.close();
-      })
-   })
-});
+//          rl.close();
+//       })
+//    })
+// });
+
+// const num1 = 10;
+// const num2 = 20;
+// let result;
+
+// if (num1 > num2){
+//    result = num1*2;
+// }
+// else{
+//    result = num1+num2;
+// }
+
+// console.log(result);
+
+const array = [1, 2, 3, 4, 5, 6, 7];
+console.log(array.length);
